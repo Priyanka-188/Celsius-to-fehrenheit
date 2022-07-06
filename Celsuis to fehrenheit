@@ -1,0 +1,3 @@
+temperature_in_celsius = int(input("\nEnter temperature in degree celsius : "))
+Temperature_in_Fehrenheit = (temperature_in_celsius*9//5)+32
+print(f"{temperature_in_celsius} degree celsuis is equals to {Temperature_in_Fehrenheit} Fehrenheit")
