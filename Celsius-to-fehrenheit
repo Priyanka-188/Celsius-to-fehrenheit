@@ -1,0 +1,6 @@
+def conversion(celsuis):
+    return (celsuis*9//5)+32
+
+temp_in_cel = int(input("\nEnter temperature in degree celsius : "))
+temp_in_feh = conversion(temp_in_cel)
+print(f"{temp_in_cel} degree celsuis is equals to {temp_in_feh} Fehrenheit")
